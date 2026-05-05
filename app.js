@@ -1,8 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.end("CI/CD Setup Working 🚀");
-  res.end("CI/CD Setup Working successfully 🚀");
+  res.end(" Version 2 deployed 🔥");
 });
 
 server.listen(3000);
