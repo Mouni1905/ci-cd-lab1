@@ -1,9 +1,4 @@
-const http = require("http");
+const createServer = require("./server");
 
-const server = http.createServer((req, res) => {
-
-  res.end(" Version 3 deployed successfully without any error🔥");
-});
-
+const server = createServer();
 server.listen(process.env.PORT || 3000);
-
